@@ -15,5 +15,10 @@ h1{
   border-radius:25px;
   align:center
 }
-
+.labels{
+  width:120px;
+}
+.highlight{
+  background-color:#ffff00;
+}
 
