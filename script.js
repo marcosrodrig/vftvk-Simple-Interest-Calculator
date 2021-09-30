@@ -2,6 +2,12 @@ function compute()
 {
     //p = document.getElementById("principal").value;
     var principal = document.getElementById("principal").value;
+    
+    if(principal == "" || principal <=0){   //Validation for principal
+        alert("Enter a positive number");
+        document.getElementById("principal").focus();
+        return;
+    }
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var interest = principal * years * rate / 100;
@@ -12,6 +18,11 @@ function updateRate()
 {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
+    
+    //Update the current slider value
+    rateval.oninput = function(){
+        output.innerHTML = this.value;
+    }
 }
 
         
