@@ -21,6 +21,24 @@ h1{
 table td{
   padding-bottom:10px;
 }
+#compute{
+  margin-bottom:10px;
+  background-color:blue;
+  color:white;
+  height:40px;
+  width:325px;
+}
+#principal{
+  height:35px;
+  width:190px;
+}
+#years{
+  height:35px;
+  width:200px;
+}
+#footer{
+  margin-top:10px;
+}
 .labels{
   width:120px;
 }
