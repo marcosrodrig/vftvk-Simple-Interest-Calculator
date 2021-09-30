@@ -10,10 +10,16 @@ h1{
 .maindiv{
   background-color:white;
   color:black;
-  width:300px;
+  width:500px;
   padding:20px;
   border-radius:25px;
   align:center
+}
+.contents{
+  margin-left:80px;
+}
+table td{
+  padding-bottom:10px;
 }
 .labels{
   width:120px;
